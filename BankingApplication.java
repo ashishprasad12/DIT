@@ -1,11 +1,12 @@
 package shouvikmitra;
 import java.util.*;
 public class BankingApplication {
-
+		//Instance Variables
 		String name=new String();
 		String type=new String();
 		double balance=0.0;
 		Scanner in=new Scanner(System.in);
+		//Constructor
 		public BankingApplication()
 		{
 			String name="";
@@ -76,6 +77,4 @@ public class BankingApplication {
 		System.out.println("Enter Opening Balance: ");
 		this.balance=in.nextDouble();
 	}
-	
-
 }
