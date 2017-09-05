@@ -42,4 +42,5 @@ void main()
 		printf("Function is not Diverging");
 	printf("Ans: = %f",x2);
 	getch();
+	
 }
