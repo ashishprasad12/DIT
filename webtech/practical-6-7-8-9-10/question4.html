@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>
+		Write a javascript code to display an array of numbers and sort them
+		Write a javascript code to define user defined object student and display its information.
+		Write a javascript code to validate registration form with the following:
+			* No field value should be empty
+			* Proper email and number field should be checked
+		</title>
+	</head>
+	
+	<body>
+		Original Array: <p id="original"> </p> <br>
+		Sorted Array: <p id="sorted"> </p> 
+		<script>
+			var cars = [100,5,200];
+			document.getElementById("original").innerHTML= cars;
+			cars.sort(function(a,b){return a - b});
+			document.getElementById("sorted").innerHTML = cars;
+		</script>
+
+	</body>
+</html>

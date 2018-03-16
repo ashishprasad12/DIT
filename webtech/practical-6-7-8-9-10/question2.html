@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>
+			Write a javascript code to calculate the factorial of a number, where the input should be taken from the user.
+		</title>
+	</head>
+	
+	<body>
+		<script>
+			var n = window.prompt("Enter a number: ");
+			var n1 = parseInt(n);
+			var sum=1;
+			while(n1>0)
+			{
+				sum*=n1;
+				n1--;
+			}
+			document.write("Factorial of "+ n +" = "+sum);
+		</script>
+	</body>
+</html>
