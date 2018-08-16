@@ -1,0 +1,20 @@
+parent(pam,bob).
+parent(tom,bob).
+parent(tom,liza).
+parent(bob,ann).
+parent(bob,pat).
+parent(pat,jim).
+male(pat).
+male(bob).
+male(jim).
+male(tom).
+female(pam).
+female(ann).
+female(liza).
+brother(X,Y):-
+    parent(P,X),parent(P,X),
+    male(X),male(Y),
+    x\==Y.
+sibling(X,Y):-
+    parent(P,X),parent(P,Y),
+    X\==Y.
